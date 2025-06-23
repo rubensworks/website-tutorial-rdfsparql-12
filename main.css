@@ -1,0 +1,180 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+	font-size: 12pt;
+	line-height: 1.4;
+	color: #222;
+	margin: 10px 20px;
+    background: #f0f6ff;
+}
+a,a:hover {
+	color: #040b1a;
+	font-weight: 700;
+	text-decoration: none;
+	border-bottom: 1px solid
+}
+strong {
+	color: #040b1a;
+}
+p {
+	margin: .5em 0
+}
+h1 {
+	font-size: 2em;
+    color: #0C479C;
+}
+h2 {
+	margin: 1em 0 .2em;
+	color: #0C479C;
+}
+ul {
+	margin: .5em 0 1em
+}
+dt {
+	margin-right: 20px;
+	color: #ee2c33;
+	font-weight: 700
+}
+.dates dt {
+	float: left;
+	clear: left;
+	width: 150px;
+}
+ins {
+	font-weight: 700;
+	text-decoration: none
+}
+body {
+	max-width: 800px;
+	margin: 0 auto
+}
+header {
+	padding: 20px 0;
+	font-size: 15.5pt
+}
+header h1 {
+	margin: 0 0 -0.2em
+}
+header img {
+	width: 75px;
+	float: right;
+	margin-right: 25px
+}
+header a {
+	color: inherit;
+	border-bottom: none !important
+}
+nav {
+	margin: auto;
+	width: 400px;
+	margin-bottom: 2em
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left
+}
+nav li {
+	display: inline;
+	padding-right: 25px;
+	font-size: 1.2em
+}
+nav a {
+	border-bottom: none
+}
+main {
+	clear: both
+}
+main h1 {
+	font-weight: 700;
+	font-style: italic
+}
+footer {
+	font-size: .8em;
+	color: #313b72;
+	margin-top: 2em
+}
+footer p {
+	float: left;
+	margin-right: 40px
+}
+p img {
+	float: right
+}
+.program main h1,.program main h2 {
+	text-align: right
+}
+.program main h1 time,.program main h2 time {
+	font-style: italic
+}
+.program main .label {
+	text-align: left;
+	float: left;
+	display: inline-block
+}
+.program main h2 .label {
+	color: #ee2c33
+}
+.program main .kind {
+	color: #fff;
+	font-size: .8em;
+	letter-spacing: 1px;
+	padding: 0 .5em;
+	margin-left: 1em;
+	background: #ee2c33
+}
+.program main .title {
+	font-weight: 700
+}
+.program main .authors {
+	display: block;
+	font-style: italic;
+	color: #313b72
+}
+.program main .authors::before {
+	content: "â€”Â "
+}
+.program main ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 1em;
+	font-size: .95em
+}
+.program main li {
+	margin: .5em 0
+}
+
+.table-program {
+    width: 100%;
+}
+.table-program td,th {
+    text-align: left;
+}
+
+.table-program td:nth-child(1) {  
+    font-style: italic;
+}
+
+@media (max-width:800px) {html {
+	font-size: 11pt;
+	margin: 5px 10px
+}
+h1 {
+	font-size: 20pt
+}
+header {
+	padding: 10px 0
+}
+header img {
+	max-width: 20%;
+	margin-bottom: .3em
+}
+nav {
+	margin: 0
+}
+
+}
